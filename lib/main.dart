@@ -37,7 +37,7 @@ class MyHomePage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.end,
             children: [
               Icon(
                 Icons.call,
@@ -53,7 +53,7 @@ class MyHomePage extends StatelessWidget {
             ],
           ),
           Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.end,
             children: [
               Icon(
                 Icons.near_me,
@@ -69,7 +69,7 @@ class MyHomePage extends StatelessWidget {
             ],
           ),
           Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.end,
             children: [
               Icon(
                 Icons.share,
